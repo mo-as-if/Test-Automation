@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FrameworkLib>
+  <RunSettings>
+    <!--App Under Test URLs-->
+    <AUTMortageCalculator>https://www.mortgagecalculator.org/  </AUTMortageCalculator>
+    <AUTAmazon>https://www.amazon.com/ </AUTAmazon>
+    <AUTUSPS> https://www.usps.com/ </AUTUSPS>
+
+    <!--Possible Browsers (Chrome,IE,Edge,Firefox)-->
+    <Browser>Chrome</Browser>
+    <!--Possible ReportPath-->
+    <ReportPath> $@"{Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)}\Desktop\AutomationQATestReport\TestResults\TR"  </ReportPath>
+
+
+  </RunSettings>
+</FrameworkLib>
